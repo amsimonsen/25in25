@@ -1,3 +1,13 @@
+<script>
+  const password = "foryoureyesonly";
+  const userInput = prompt("Enter the password to view this site:");
+
+  if (userInput !== password) {
+    document.body.innerHTML = "<h1>Access Denied</h1>";
+  }
+</script>
+
+
 function makeGrid() {
     var height = document.getElementById('inputHeight').value;
     var width = document.getElementById('inputWidth').value;
