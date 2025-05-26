@@ -43,7 +43,9 @@ table{
     Top: 60px;
 }
 
-td:hover {transform: rotateY(180deg);}
+td.flipped {
+  transform: rotateY(180deg);
+}
 
 .side-a {
    Position: relative;
