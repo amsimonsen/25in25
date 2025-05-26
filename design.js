@@ -22,3 +22,14 @@ function clickDone() {
     });
   }
 }
+
+document.addEventListener('click', function(event) {
+  if (event.target.tagName === 'TD') {
+    // Color it
+    var color = document.getElementById('colorPicker').value;
+    event.target.style.backgroundColor = color;
+
+    // Flip it
+    event.target.classList.toggle('flipped');
+  }
+});
