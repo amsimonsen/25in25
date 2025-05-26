@@ -6,8 +6,10 @@ if (userInput !== password) {
 }
 
 document.addEventListener('click', function(event) {
-  if (event.target.tagName === 'TD') {
-    // Flip it
-    event.target.classList.toggle('flipped');
+  // Find the closest td element
+  const cell = event.target.closest('td');
+  if (cell) {
+    cell.classList.toggle('flipped');
   }
 });
+
