@@ -1,0 +1,101 @@
+<style>body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .header-img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+    h1 {
+      color: #cc0000;
+      font-size: 28px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333399;
+      font-size: 22px;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .section {
+      margin-top: 30px;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-style: italic;
+    }
+    a {
+      color: #cc0000;
+      text-decoration: underline;
+    }</style>
+<div class="container">
+  <h1>
+    <img class="header-img" src="https://share1.cloudhq-mkt3.net/793b896f0ae5b0.png" alt="Game Schmidt Network Header">
+  </h1>
+  <p>
+    <em>(Because every great reunion deserves a game show twist)</em>
+  </p>
+  <p>Ladies and gentlemen, contestants and cousins—</p>
+  <p>After three years in the making, the spotlight is finally on 
+    <strong>YOU</strong>. Join us for the highly anticipated, star-studded 
+    <strong>debut of the Game Schmidt Network</strong>, airing live during the 
+    <strong>Getting to Know You</strong> night at the 
+    <strong>Schmidt Family Reunion 2025</strong>!
+  </p>
+  <p>
+    <strong>Premiere Date:</strong> Thursday, June 26th 
+    <br>
+    <strong>Location:</strong> The main event space (a.k.a. our GSN Studio)
+  </p>
+  <div class="section">
+    <h2>STEP 1: Help Stock the Prize Table!</h2>
+    <p>Our network may be low-budget, but our hopes are high! For 
+      <strong>each person attending</strong>, please bring 
+      <strong>one no-cost or low-cost prize</strong> to add to our glorious prize pool.
+    </p>
+    <p>Think: a handcrafted potholder, a gently-used board game, that funky treasure from the garage.</p>
+    <p>Whether it’s silly, sincere, or straight-up 
+      <em>Schmidt-y</em>, just make sure it's small enough to travel home by car or plane.
+    </p>
+    <p>If you do not wish to bring a prize, no worries — we'll have plenty extra.</p>
+  </div>
+  <div class="section">
+    <h2>STEP 2: Share Your Star Power</h2>
+    <p>To help us create the perfect game show lineup, 
+      <strong>please fill out 
+        <a href="https://forms.gle/t9unenpNu97fura56?_imcp=1">THIS SURVEY</a> for each adult attending
+      </strong>.
+    </p>
+    <p>We promise it’s painless—just some fun facts and trivia to warm up the crowd.</p>
+    <p>
+      <em>(Only share what you’re comfortable sharing with the whole family audience.)</em>
+    </p>
+  </div>
+  <p>So grab your lucky charm, pack your prize, and practice your buzzer reflexes. 
+    <br>
+    <strong>The spotlight is waiting...</strong>
+  </p>
+  <div class="footer">
+    <p>With glitz, games, and Schmidt-sized excitement— 
+      <br>
+      <br>Your GSN Hosts, 
+      <br>Aubrey &amp; Kelsey
+    </p>
+  </div>
+</div>
