@@ -67,3 +67,7 @@ table{
 .side-a {
    Position: relative;
 }
+
+.boxDone {
+  visibility: hidden;
+}
