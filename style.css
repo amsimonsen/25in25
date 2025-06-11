@@ -24,9 +24,10 @@ td {
   transition: transform 1s ease-in;
   transform-style: preserve-3d;
   transition-delay: 0.5s;
+  position: relative;
 }
 
-button {
+.closeMe {
   background-color: #04AA6D; /* Green */
   position: absolute;
   top: -50px;
@@ -51,7 +52,12 @@ table{
     backface-visibility: hidden;
     border-radius: 25px;
     border: 0px solid black;
-    Width: 200px;
+    Width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10%;
 }
 
 .flipped {
@@ -60,14 +66,18 @@ table{
 
 
 .side-b {transform: rotateY(180deg);
-    Position: absolute;
     Top: 60px;
 }
 
-.side-a {
-   Position: relative;
+.boxDone {
+    visibility: visible;
+    color: red;
+    font-size: 100px;
+    font-weight: 700;
+    z-index: 1;
+    margin: 0px;
 }
 
-.boxDone {
-  visibility: hidden;
+.visible {
+  display: block;
 }
