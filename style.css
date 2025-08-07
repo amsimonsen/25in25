@@ -81,3 +81,5 @@ table{
 .visible {
   display: block;
 }
+
+.hannah, .riven, .cora, .luke, .murphy {text-decoration: line-through;}
