@@ -82,4 +82,6 @@ table{
   display: block;
 }
 
-.hannah, .riven, .cora, .luke, .murphy {text-decoration: line-through;}
+.strikedone {
+  text-decoration: line-through;
+}
